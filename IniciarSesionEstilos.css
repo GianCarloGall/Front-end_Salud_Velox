@@ -18,9 +18,9 @@ section{
 p{
     margin-bottom: 1.6em;
 }
-/*.espacio{
+.espacio{
     padding-top: 1em;
-}*/
+}
 .container{
     width: 85%;
     max-width: 900px;
@@ -36,6 +36,7 @@ p{
 .logo{
     position: relative;
     font-size: 1.5em;
+    letter-spacing: 5px;
 }
 .menu-icon{
     display: none;
