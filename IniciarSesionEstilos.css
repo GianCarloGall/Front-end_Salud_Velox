@@ -22,7 +22,7 @@ p{
     padding-top: 1em;
 }
 .espacioV{
-    height: 10px;
+    display: none;
 }
 .container{
     width: 85%;
@@ -39,7 +39,7 @@ p{
 .logo{
     position: relative;
     font-size: 1.5em;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .menu-icon{
     display: none;
@@ -59,6 +59,24 @@ header a{
     text-decoration: none;
     align-items: center;
 }
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li {
+        display: inline-block;
+    }
+        .navigation ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+        .navigation ul li a:hover {
+            background: #dbd6d6;
+            color: black;
+        }
 footer{
     background: #9f0000;
     padding: 4rem 0;
@@ -120,5 +138,13 @@ main{
     section{
         padding-top: 50px;
         margin-top: 0;
+    }
+    .logo{
+        position: relative;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+    .espacioV{
+        height: 10px;
     }
 }

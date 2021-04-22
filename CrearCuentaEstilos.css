@@ -22,7 +22,7 @@ p{
     padding-top: 1em;
 }
 .espacioV{
-    height: 10px;
+    display: none;
 }
 .container{
     width: 85%;
@@ -39,7 +39,7 @@ p{
 .logo{
     position: relative;
     font-size: 1.5em;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .menu-icon{
     display: none;
@@ -137,5 +137,13 @@ main{
     section{
         padding-top: 50px;
         margin-top: 0;
+    }
+    .logo{
+        position: relative;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+    .espacioV{
+        height: 10px;
     }
 }
