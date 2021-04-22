@@ -21,6 +21,9 @@ p{
 .espacio{
     padding-top: 1em;
 }
+.espacioV{
+    height: 10px;
+}
 .container{
     width: 85%;
     max-width: 900px;
