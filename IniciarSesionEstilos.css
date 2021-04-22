@@ -56,24 +56,6 @@ header a{
     text-decoration: none;
     align-items: center;
 }
-.navigation ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-    .navigation ul li {
-        display: inline-block;
-    }
-        .navigation ul li a{
-            display: block;
-            padding: 0.5rem 1rem;
-            transition: all 0.4s linear;
-            border-radius: 5px;
-        }
-        .navigation ul li a:hover {
-            background: #dbd6d6;
-            color: black;
-        }
 footer{
     background: #9f0000;
     padding: 4rem 0;
@@ -107,28 +89,19 @@ main{
     padding-top: 10rem;
 }
 @media only screen and (max-width: 900px) {
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-        padding:  0.5rem 1rem;
-    }
-    .navigation{
-        width: 100%;
-        margin-top: 1rem;   
-    }
+
     .navigation ul{
-        display: none;
-    }
-    .navigation ul.show{
-        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
         .navigation ul li {
-            display: block;
+            display: inline-block;
         }
             .navigation ul li a{
                 display: block;
-                padding: 0.5rem 0;
-                transition: all 0.5s linear;
+                padding: 0.5rem 1rem;
+                transition: all 0.4s linear;
                 border-radius: 5px;
             }
             .navigation ul li a:hover {
@@ -137,8 +110,9 @@ main{
             }
     main{
         margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 5rem;
         margin-top: 0;
-        padding-top: 10rem;
     }
     section{
         padding-top: 50px;
