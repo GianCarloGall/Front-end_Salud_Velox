@@ -104,7 +104,7 @@ header a{
 }
 .input__submit:hover{
     background: #9f0000;
-    color: white;
+    color: white
 }
 textarea{
     width: 100%;
