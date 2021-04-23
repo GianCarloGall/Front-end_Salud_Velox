@@ -42,11 +42,11 @@ p{
     display: none;
 }
 header{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     background: #9f0000;
     color: white;
     position: fixed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     left: 0;
     top: 0;
     right: 0;

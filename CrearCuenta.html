@@ -28,12 +28,18 @@
         <main>
             <form action="" class="formulario">
                 <h4 class="formulario__titulo">Ingrese sus Datos</h4>
+                <input type="text" name = "Nombre" class="formulario__input" placeholder="Nombre(s)">
+                <input type="text" name = "Fecha de Nacimiento" class="formulario__input" placeholder="Fecha de Nacimiento">
                 <input type="text" name = "Correo Electrónico" class="formulario__input" placeholder="Correo Electrónico">
                 <input type="text" name = "Nombre de Usuario" class="formulario__input" placeholder="Nombre de Usuario">
-                <input type="text" name = "Contraseña" class="formulario__input" placeholder="Contraseña">
+                <input type="text" name = "Contraseña" class="formulario__input" placeholder="Contraseña (6 caracteres mínimo)">
                 <input type="text" name = "Verificar Contraseña" class="formulario__input" placeholder="Verificar Contraseña">
                 <p class = "centro">Estoy deacuerdo con <a href="javascript:abrir()">Términos y Condiciones <i class="far fa-check-square"></i></a></p>
-                <input type="submit" value = "Registrarse" class="formulario__submit">
+                <div class="olvidar">
+                    <ul>
+                        <li><a href="IniciarSesion.html">Registrase</a></li>
+                    </ul> 
+                </div>
             </form>
             <div class="ventana" id = "vent">
                 <p class="centro">Aqui van los terminos y condiciones de nuestra pagina web :3</p>
