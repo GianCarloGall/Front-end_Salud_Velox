@@ -30,6 +30,9 @@ p{
 .espacioV{
     display: none;
 }
+.espacioV1{
+    height: 20px;
+}
 .logo-nav-container{
     display: flex;
     justify-content: space-between;
@@ -132,6 +135,28 @@ header a{
 .formulario__submit:hover{
     width: 100%;
 }
+.olvidar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+    .olvidar ul li {
+        display: inline-block;
+    }
+        .olvidar ul li a{
+            background: #e6e3e3;
+            color: black;
+            display: block;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+        .olvidar ul li a:hover {
+            background: #9f0000;
+            color: white;
+        }
 footer{
     background: #9f0000;
     padding: 4rem 0;
