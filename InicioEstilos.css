@@ -74,6 +74,47 @@ header a{
             background: #dbd6d6;
             color: black;
         }
+.contenedor{
+    width: 40%;
+    background: #dbd6d6;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+.caja_chat{
+    width: 90%;
+    height: 400px;
+}
+.datos_chat{
+   width: 100%;
+   padding: 5px;
+   margin-bottom: 5px;
+   border-bottom: 1px solid silver;
+   font-weight: bold;
+   font-family: 'Mukta Vaani', sans-serif;
+}
+.input__submit{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #dbd6d6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.input__submit:hover{
+    background: #9f0000;
+    color: white;
+}
+textarea{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #dbd6d6;
+    border-radius: 5px;
+}
+input, textarea{
+    margin-bottom: 3px;
+}
 footer{
     background: #9f0000;
     padding: 4rem 0;
