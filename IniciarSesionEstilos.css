@@ -93,7 +93,7 @@ header a{
     margin-top: 0;
     color: black;
 }
-.formulario__input, .formulario__submit, .formulario__label{
+.formulario__input, .formulario__submit{
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,18 +115,7 @@ header a{
     outline: 1px solid rgba(0,0,0,0.3);
     width: 100%;
     background: rgba(0,0,0,0.05);
-}
-.formulario__input:focus + .formulario__label{
     font-size: 1em;
-}
-.formulario__label{
-    width: 100%;
-    font-size: 0.9em;
-    padding-left: 15px;
-    position: absolute;
-    margin-top: -135px;
-    color: black;
-    transition: all 0.2s ;
 }
 .formulario__submit{
     display: block; 
