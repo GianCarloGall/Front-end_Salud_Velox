@@ -33,6 +33,9 @@ p{
 .espacioV1{
     height: 20px;
 }
+.centro{
+    text-align: center;
+}
 .logo-nav-container{
     display: flex;
     justify-content: space-between;
@@ -145,7 +148,7 @@ header a{
         display: inline-block;
     }
         .olvidar ul li a{
-            background: #e6e3e3;
+            background: #dbd6d6;
             color: black;
             display: block;
             text-decoration: none;
