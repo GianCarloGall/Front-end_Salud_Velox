@@ -129,7 +129,7 @@ header a{
     border-radius: 10px;
     transition: all 0.2s;
 }
-.formulario__submit:focus{
+.formulario__submit:hover{
     width: 100%;
 }
 footer{
