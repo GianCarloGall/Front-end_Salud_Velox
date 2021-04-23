@@ -132,7 +132,7 @@ header a{
     display: block; 
     width: 95%;
     font-size: 1.3em;
-    background: rgba(0,0,0,0.7);
+    background: rgb(75, 75, 75);
     color: white;
     padding: 10px 20px;
     cursor: pointer;
@@ -213,5 +213,8 @@ main{
     .espacioV{
         display: block;
         height: 10px;
+    }
+    .formulario{
+        width: auto;
     }
 }
