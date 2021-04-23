@@ -15,6 +15,12 @@ section{
     padding-bottom: 4rem;
     margin-bottom: 0;
 }
+.container{
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
 p{
     margin-bottom: 1.6em;
 }
@@ -23,12 +29,6 @@ p{
 }
 .espacioV{
     display: none;
-}
-.container{
-    width: 85%;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: justify;
 }
 .logo-nav-container{
     display: flex;
@@ -53,6 +53,7 @@ header{
     left: 0;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 header a{
     color: white;
@@ -77,6 +78,71 @@ header a{
             background: #dbd6d6;
             color: black;
         }
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+}
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+.formulario__input, .formulario__submit, .formulario__label{
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario__input{
+    display: block; 
+    width: 95%;
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: relative;
+    transition: all 0.3s;
+}
+.formulario__input:focus{
+    outline: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+}
+.formulario__input:focus + .formulario__label{
+    font-size: 1em;
+}
+.formulario__label{
+    width: 100%;
+    font-size: 0.9em;
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -135px;
+    color: black;
+    transition: all 0.2s ;
+}
+.formulario__submit{
+    display: block; 
+    width: 95%;
+    font-size: 1.3em;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.formulario__submit:focus{
+    width: 100%;
+}
 footer{
     background: #9f0000;
     padding: 4rem 0;
@@ -107,7 +173,7 @@ footer ul{
             color: black;
         }
 main{
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 @media only screen and (max-width: 900px) {
 
