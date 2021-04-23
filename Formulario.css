@@ -110,7 +110,7 @@ header a{
 .formulario__input{
     display: block; 
     width: 95%;
-    font-size: 1.3em;
+    font-size: 1em;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: transparent;
@@ -254,5 +254,11 @@ main{
     }
     .formulario{
         width: 300px;
+    }
+    .ventana{
+        width: 70%;
+        height: 40%;
+        left: 15%;
+        top: 80%;
     }
 }
