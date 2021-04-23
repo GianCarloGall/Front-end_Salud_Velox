@@ -32,9 +32,17 @@
                 <input type="text" name = "Nombre de Usuario" class="formulario__input" placeholder="Nombre de Usuario">
                 <input type="text" name = "Contraseña" class="formulario__input" placeholder="Contraseña">
                 <input type="text" name = "Verificar Contraseña" class="formulario__input" placeholder="Verificar Contraseña">
-                <p class = "centro">Estoy deacuerdo con <a href="" target="_blank">Terminos y Condiciones</a></p>
+                <p class = "centro">Estoy deacuerdo con <a href="javascript:abrir()">Términos y Condiciones</a></p>
                 <input type="submit" value = "Registrarse" class="formulario__submit">
             </form>
+            <div class="ventana" id = "vent">
+                <p class="centro">Aqui van los terminos y condiciones de nuestra pagina web :3</p>
+                <div class = "olvidar">
+                    <ul>
+                        <li><a href="javascript:cerrar()"> Aceptar</a></li>
+                    </ul>
+                </div>
+            </div>
         </main>
     </section>
     <footer>
@@ -53,7 +61,13 @@
             <li><a href="https://giancarlogall.github.io/VeloxPagina/Velox.html" target="_blank">VeloxSoftware.com</a></li>
         </ul>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts.js"></script>
+    <script>
+        function abrir(){
+            document.getElementById("vent").style.display="block";
+        }
+        function cerrar(){
+            document.getElementById("vent").style.display="none";
+        }
+    </script>
 </body>
 </html>

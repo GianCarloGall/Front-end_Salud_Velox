@@ -75,6 +75,8 @@ header a{
         display: inline-block;
     }
         .navigation ul li a{
+            background: #9f0000;
+            color: white;
             display: block;
             padding: 0.5rem 1rem;
             transition: all 0.4s linear;
@@ -160,6 +162,22 @@ header a{
             background: #9f0000;
             color: white;
         }
+.ventana{
+    background: #dbd6d6;
+    width: 30%;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    font-size: 1em;
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 32.5%;
+    top: 50%;
+    display: none;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
 footer{
     background: #9f0000;
     padding: 4rem 0;
