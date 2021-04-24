@@ -21,6 +21,9 @@ p{
 .espacio{
     padding-top: 1em;
 }
+.espacio1{
+    height: 5px;
+}
 .container{
     width: 85%;
     max-width: 900px;
@@ -93,7 +96,7 @@ header a{
             color: black;
         }
 .contenedor{
-    width: 40%;
+    width: 80%;
     background: #dbd6d6;
     margin: 0 auto;
     padding: 20px;
@@ -113,7 +116,8 @@ header a{
    font-family: 'Mukta Vaani', sans-serif;
 }
 .input__submit{
-    width: 100%;
+    right: 80%;
+    width: 20%;
     height: 40px;
     border: 1px solid #dbd6d6;
     border-radius: 5px;
@@ -125,7 +129,8 @@ header a{
     color: white
 }
 textarea{
-    width: 100%;
+    right: 60%;
+    width: 40%;
     height: 40px;
     border: 1px solid #dbd6d6;
     border-radius: 5px;
@@ -207,5 +212,13 @@ main{
     section{
         padding-top: 50px;
         margin-top: 0;
+    }
+    textarea{
+        width: 100%;
+        right: 0%;
+    }
+    .input__submit{
+        width: 100%;
+        right: 0%;
     }
 }
