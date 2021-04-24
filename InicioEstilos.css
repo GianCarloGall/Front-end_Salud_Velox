@@ -221,4 +221,7 @@ main{
         width: 100%;
         right: 0%;
     }
+    .contenedor{
+        width: 90%;
+    }
 }
