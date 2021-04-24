@@ -164,6 +164,11 @@ header a{
     margin: 0 auto;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
 }
+.nombres{
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: 'Mukta Vaani', sans-serif;
+}
 footer{
     background: #9f0000;
     padding: 4rem 0;
