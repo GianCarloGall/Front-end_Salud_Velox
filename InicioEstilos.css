@@ -59,24 +59,6 @@ header a{
     text-decoration: none;
     align-items: center;
 }
-.em1{
-    font-size: 1em;
-}
-.em2{
-    font-size: 2em;
-}
-.px20{
-    font-size: 20px;
-}
-.px5{
-    font-size: 5px;
-}
-.em1_3{
-    font-size: 1.3em;
-}
-.rem1{
-    font-size: 1rem;
-}
 .navigation ul{
     margin: 0;
     padding: 0;
