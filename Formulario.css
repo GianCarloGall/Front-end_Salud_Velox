@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 1rem;
     line-height: 1.6em;
@@ -12,7 +12,7 @@ section{
     background: linear-gradient(135deg,  #e6e3e3 0%,#dbd6d6 50%,#e6e3e3 50%,#dbd6d6 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e3e3', endColorstr='#dbd6d6',GradientType=1 );
     padding-bottom: 4rem;
-    padding-top: 6rem;
+    padding-top: 11rem;
     margin-bottom: 0;
 }
 .container{
@@ -31,7 +31,7 @@ p{
     display: none;
 }
 .espacioV1{
-    height: 20px;
+    height: 30px;
 }
 .centro{
     text-align: center;
@@ -60,9 +60,8 @@ header{
     top: 0;
     right: 0;
     z-index: 10;
-}
-header a{
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     align-items: center;
 }
@@ -73,18 +72,18 @@ header a{
 }
     .navigation ul li {
         display: inline-block;
+        cursor: pointer;
+        background: #9f0000;
+        color: white;
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
     }
-        .navigation ul li a{
-            background: #9f0000;
-            color: white;
-            display: block;
-            padding: 0.5rem 1rem;
-            transition: all 0.4s linear;
-            border-radius: 5px;
-        }
-        .navigation ul li a:hover {
+        .navigation ul li:hover {
             background: #dbd6d6;
             color: black;
+            box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
         }
 .formulario{
     width: 500px;
@@ -132,20 +131,22 @@ header a{
     text-align: center;
 }
     .olvidar ul li {
+        cursor: pointer;
         display: inline-block;
-    }
-        .olvidar ul li a{
-            background: #dbd6d6;
-            color: black;
-            display: block;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            transition: all 0.4s linear;
-            border-radius: 5px;
+        background: #dbd6d6;
+        color: black;
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
         }
-        .olvidar ul li a:hover {
+        .olvidar ul li:hover {
             background: #9f0000;
             color: white;
+            box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
         }
 .ventana{
     background: rgb(75, 75, 75);
@@ -224,7 +225,6 @@ header a{
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
 }
 .nombres{
-    font-weight: bold;
     font-size: 0.9em;
 }
 footer{
@@ -243,43 +243,23 @@ footer ul{
 }
     footer ul li {
         display: inline-block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        transition: all 0.5s linear;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
     }
-        footer ul li a{
-            display: block;
-            padding: 0.5rem 1rem;
-            transition: all 0.5s linear;
-            border-radius: 5px;
-            color: white;
-            text-decoration: none;
-        }
-        footer ul li a:hover {
-            background: #dbd6d6;
-            color: black;
-        }
+    footer ul li:hover {
+        background: #dbd6d6;
+        color: black;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    }
 @media only screen and (max-width: 900px) {
-
-    .navigation ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-        .navigation ul li {
-            display: inline-block;
-        }
-            .navigation ul li a{
-                display: block;
-                padding: 0.5rem 1rem;
-                transition: all 0.4s linear;
-                border-radius: 5px;
-            }
-            .navigation ul li a:hover {
-                background: #dbd6d6;
-                color: black;
-            }
     main{
         margin-bottom: 0;
         padding-bottom: 0;
-        padding-top: 5rem;
+        padding-top: 9rem;
         margin-top: 0;
     }
     section{

@@ -1,7 +1,6 @@
-
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.6em;
     margin: 0;
@@ -12,7 +11,7 @@ section{
     background: -webkit-linear-gradient(-45deg,  #e6e3e3 0%,#dbd6d6 50%,#e6e3e3 50%,#dbd6d6 100%);
     background: linear-gradient(135deg,  #e6e3e3 0%,#dbd6d6 50%,#e6e3e3 50%,#dbd6d6 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e3e3', endColorstr='#dbd6d6',GradientType=1 );
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     margin-bottom: 0;
 }
 p{
@@ -38,130 +37,133 @@ p{
 }
 .logo{
     position: relative;
-    letter-spacing: 5px;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    letter-spacing: 7px;
 }
 .menu-icon{
     display: none;
 }
 header{
+    position: fixed;
     background: #9f0000;
     color: white;
-    position: fixed;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    left: 0;
     top: 0;
+    left: 0;
     right: 0;
-}
-header a{
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     align-items: center;
 }
 .navigation ul{
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
     .navigation ul li {
         display: inline-block;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
     }
-        .navigation ul li a{
-            display: block;
-            padding: 0.5rem 1rem;
-            transition: all 0.4s linear;
-            border-radius: 5px;
-        }
-        .navigation ul li a:hover {
+        .navigation ul li:hover {
             background: #dbd6d6;
             color: black;
+            box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
         }
 .contenedor{
-    width: 80%;
     background: #dbd6d6;
-    margin: 0 auto;
-    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 .caja_chat{
     width: 90%;
     height: 400px;
 }
 .datos_chat{
-   width: 100%;
-   padding: 5px;
-   margin-bottom: 5px;
-   border-bottom: 1px solid silver;
-   font-weight: bold;
-   font-family: 'Mukta Vaani', sans-serif;
+    font-weight: bold;
+    font-family: 'Mukta Vaani', sans-serif;
+    border-bottom: 1px solid silver;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 .input__submit{
-    right: 80%;
-    width: 20%;
-    height: 40px;
+    cursor: pointer;
     border: 1px solid #dbd6d6;
     border-radius: 5px;
-    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    right: 80%;
     transition: all 0.5s;
 }
 .input__submit:hover{
     background: #9f0000;
-    color: white
+    color: white;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
 }
 textarea{
-    right: 60%;
-    width: 40%;
-    height: 40px;
     border: 1px solid #dbd6d6;
     border-radius: 5px;
+    width: 40%;
+    height: 40px;
+    right: 60%;
 }
 input, textarea{
     margin-bottom: 3px;
 }
 .nombres{
-    font-weight: bold;
     font-size: 0.9em;
-    font-family: 'Mukta Vaani', sans-serif;
 }
 footer{
     background: #9f0000;
-    padding: 4rem 0;
-    text-align: center;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 4rem 0;
 }
 footer ul{
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
     text-align: center;
-
+    margin: 0;
+    padding: 0;
 }
     footer ul li {
+        cursor: pointer;
         display: inline-block;
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        margin-top: 5px;
+        padding: 0.5rem 1rem;
+        transition: all 0.5s linear;
     }
-        footer ul li a{
-            display: block;
-            padding: 0.5rem 1rem;
-            transition: all 0.5s linear;
-            border-radius: 5px;
-            color: white;
-            text-decoration: none;
-        }
-        footer ul li a:hover {
-            background: #dbd6d6;
-            color: black;
-        }
+    footer ul li:hover {
+        background: #dbd6d6;
+        color: black;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    }
 main{
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 @media only screen and (max-width: 900px) {
     .menu-icon{
         display: block;
         cursor: pointer;
+        border-radius: 5px;
         padding:  0.5rem 1rem;
+        transition: all 0.5s linear;
+    }
+    .menu-icon:hover{
+        background: #dbd6d6;
+        color: black;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     }
     .navigation{
         width: 100%;
@@ -175,16 +177,17 @@ main{
     }
         .navigation ul li {
             display: block;
+            border-radius: 5px;
+            width: 40%;
+            margin-top: 5px;
+            padding: 0.5rem 0;
+            left: 50%;
+            transition: all 0.5s linear;
         }
-            .navigation ul li a{
-                display: block;
-                padding: 0.5rem 0;
-                transition: all 0.5s linear;
-                border-radius: 5px;
-            }
-            .navigation ul li a:hover {
+            .navigation ul li:hover {
                 background: #dbd6d6;
                 color: black;
+                box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
             }
     main{
         margin-bottom: 0;
@@ -192,8 +195,8 @@ main{
         padding-top: 12rem;
     }
     section{
-        padding-top: 50px;
         margin-top: 0;
+        padding-top: 50px;
     }
     textarea{
         width: 100%;
