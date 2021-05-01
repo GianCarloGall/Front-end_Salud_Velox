@@ -13,12 +13,26 @@ jQuery('document').ready(function($){
         }
     });
 });
+
+$(document).ready(function () {
+    $("#inputXD").on('paste', function (e) {
+        e.preventDefault();
+        alert('Esta acción está prohibida');
+    })
+
+    $("#inputXD").on('copy', function (e) {
+        e.preventDefault();
+        alert('Esta acción está prohibida');
+    })
+})
+
 function abrir(){
     document.getElementById("vent").style.display="block";
 }
 function cerrar(){
     document.getElementById("vent").style.display="none";
 }
+
 function inicio(){
     location.href = "index.html"
 }
@@ -46,6 +60,7 @@ function resultado(){
 function chat(){
     location.href = "Chat.html"
 }
+
 function velox(){
     window.open("https://giancarlogall.github.io/VeloxPagina/Velox.html");
 }

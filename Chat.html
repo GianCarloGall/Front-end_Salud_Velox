@@ -9,9 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@300&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
+    <script src="validacion.js"></script> 
     <link rel = "stylesheet" type = 'text/css' href = 'InicioEstilos.css'>
     <script src="https://kit.fontawesome.com/9fb0a1aa63.js" crossorigin="anonymous"></script>
 </head>
@@ -45,7 +46,7 @@
                 <form method = "POST" action= "Chat.html">
                     <textarea name="Mensaje" placeholder="Ingresa tu Mensaje"></textarea>
                     <div class="espacio1"></div>
-                    <input type="submit" name = "Enviar" value = "Enviar" class="input__submit">
+                    <input type="submit" onkeypress="return validarAlfaNumericos2(event)" name = "Enviar" value = "Enviar" class="input__submit">
                 </form>
             </div>
         </main>

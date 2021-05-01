@@ -6,10 +6,12 @@
     <title>Crear Cuenta</title>
     <link rel="icon" href= "imagenes/EscudoVelox2.png">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
+    <script src="validacion.js"></script>
+
     <link rel = "stylesheet" type = 'text/css' href = 'Formulario.css'>
     <script src="https://kit.fontawesome.com/9fb0a1aa63.js" crossorigin="anonymous"></script>
 </head>
@@ -28,18 +30,19 @@
     </header>
     <section>
         <main>
-            <form action="" class="formulario">
+            <form action="" name = "formularioRegistro" onsubmit="return validarRegistro(this)" class="formulario">
                 <h4 class="formulario__titulo">Ingrese sus Datos</h4>
-                <input type="text" name = "Nombre" class="formulario__input" placeholder="Nombre(s)">
-                <input type="text" name = "Fecha de Nacimiento" class="formulario__input" placeholder="Fecha de Nacimiento">
-                <input type="text" name = "Correo Electrónico" class="formulario__input" placeholder="Correo Electrónico">
-                <input type="text" name = "Nombre de Usuario" class="formulario__input" placeholder="Nombre de Usuario">
-                <input type="password" name = "Contraseña" class="formulario__input" placeholder="Contraseña (6 caracteres mínimo)">
-                <input type="password" name = "Verificar Contraseña" class="formulario__input" placeholder="Verificar Contraseña">
+                <input id="inputXD" onkeypress="return validarLetras(event)" type="text" name = "Nombre" class="formulario__input" placeholder="Nombre(s)">
+                <input id="inputXD" type="date" name = "FechaNacimiento" class="formulario__input" placeholder="Fecha de Nacimiento">
+                <input id="inputXD" type="email" name = "CorreoElectrónico" class="formulario__input" placeholder="Correo Electrónico">
+                <input id="inputXD" onkeypress="return validarAlfanumericos(event)" type="text" name = "Usuario" class="formulario__input" placeholder="Nombre de Usuario">
+                <input id="inputXD" onkeypress="return validarAlfanumericos(event)" type="password" name = "Contraseña" class="formulario__input" placeholder="Contraseña (6 caracteres mínimo)">
+                <input id="inputXD" onkeypress="return validarAlfanumericos(event)" type="password" name = "VerificarContraseña" class="formulario__input" placeholder="Verificar Contraseña">
                 <p class = "centro">Estoy deacuerdo con <a href="javascript:abrir()">Términos y Condiciones <i class="far fa-check-square"></i></a></p>
                 <div class="olvidar">
                     <ul>
-                        <li onclick="javascript:iniciarsesion()">Registrarse</li>
+                        <!-- <li onclick="javascript:iniciarsesion()">Registrarse</li> -->
+                        <input type="submit" value="Registrarse">
                     </ul> 
                 </div>
             </form>
@@ -82,5 +85,9 @@
             </ul>
         </div>
     </footer>
+
+    <!-- <script src="scripts.js"></script>
+    <script src="validacion.js"></script> -->
+
 </body>
 </html>
