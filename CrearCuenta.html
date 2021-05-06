@@ -40,15 +40,14 @@
                 <input id="inputXD" onkeypress="return validarAlfanumericos(event)" type="password" name = "VerificarContraseña" class="formulario__input" placeholder="Verificar Contraseña">
                 <p class = "centro">Estoy deacuerdo con <a href="javascript:abrir()">Términos y Condiciones <i class="far fa-check-square"></i></a></p>
                 <div class="olvidar">
-                    <ul>
-                        <!-- <li onclick="javascript:iniciarsesion()">Registrarse</li> -->
-                        <input type="submit" value="Registrarse">
-                    </ul> 
+                    <!-- En lo que se verifican los datos, pongo el onclick att:G
+                    PD: Esta cool la validación te salio muy bien 10/10 -->
+                    <input type="submit" value="Registrarse" onclick="javascript:iniciarsesion()">
                 </div>
             </form>
             <div class="ventana" id = "vent">
                 <p class="centro">Términos y Condiciones
-                    Estamos en proceso de escribir los Términos y Condiciones por faver espere
+                    Estamos en proceso de escribir los Términos y Condiciones por favor espere
                 </p>
                 <div class = "olvidar">
                     <ul>

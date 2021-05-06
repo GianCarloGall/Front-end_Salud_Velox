@@ -23,6 +23,14 @@ p{
 .espacio1{
     height: 5px;
 }
+.container1{
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 40px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
 .container{
     width: 85%;
     max-width: 900px;
@@ -205,5 +213,8 @@ main{
     .input__submit{
         width: 100%;
         right: 0%;
+    }
+    .container1{
+        padding: 20px;
     }
 }

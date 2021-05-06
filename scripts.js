@@ -32,7 +32,6 @@ function abrir(){
 function cerrar(){
     document.getElementById("vent").style.display="none";
 }
-
 function inicio(){
     location.href = "index.html"
 }
