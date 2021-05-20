@@ -222,7 +222,7 @@ main{
             display: inline-block;
             text-align: center;
             border-radius: 5px;
-            margin: 5px;
+            margin: 5px 10px;
             padding: 0.5rem 5px;
             transition: all 0.5s linear;
         }
@@ -233,7 +233,7 @@ main{
             }
     #margen{
         display: inline-block;
-        margin: 5px 25px;
+        margin: 5px 10px;
     }
     main{
         margin-bottom: 0;
@@ -281,9 +281,9 @@ main{
         display: none;
     }
     #margenNav{
-        margin-left: 55px;
+        margin-left: 45px;
     }
     #margenNav2{
-        margin-left: 97px;
+        margin-left: 90px;
     }
 }
