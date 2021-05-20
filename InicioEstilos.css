@@ -167,6 +167,79 @@ input, textarea{
     margin-bottom: 5px;
     border-bottom: 1px solid silver;
 }
+.formulario2{
+    margin: auto 5%;
+    padding: 20px;
+    border-bottom: 2px solid silver ;
+}
+.formulario2 input[type = "radio"]{
+    display: none;
+}
+.formulario2 .radio label{
+    margin: 5px;
+    color: black;
+    padding: 5px 25px;
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.formulario2 .radio label:hover{
+    background: silver;
+}
+.formulario2 input[type = "radio"]:checked + label{
+    padding: 5px 15px;
+    background: #9f0000;
+    color: white;
+}
+.cuadro{
+    padding-top: 1rem;
+    width: 85%;
+    max-width: 900px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.pregunta{
+    border-top: 2px solid silver ;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 1em;
+    margin: auto 5%;
+}
+.informacion{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+.tituloF{
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid silver;
+}
+.imagenesF{
+    height: 200px;
+    margin: 5px auto;
+    transition: all 0.5s linear;
+    border-radius: 10px;
+    padding: 5px;
+}
+.imagenesF:hover{
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+#toc{
+    margin-left: 30%;
+}
 footer{
     background: #9f0000;
     color: white;
@@ -197,7 +270,7 @@ footer ul{
         box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     }
 main{
-    padding-top: 12rem;
+    padding-top: 11rem;
 }
 @media only screen and (max-width: 900px) {
     .menu-icon{
@@ -242,7 +315,7 @@ main{
     main{
         margin-bottom: 0;
         margin-top: 0;
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
     section{
         margin-top: 0;
@@ -289,5 +362,11 @@ main{
     }
     #margenNav2{
         margin-left: 75px;
+    }
+    .informacion{
+        margin-left: 4%;
+    }
+    .imagenesF{
+        height: 100px;
     }
 }
