@@ -233,7 +233,7 @@ main{
             }
     #margen{
         display: inline-block;
-        margin: 5px 10px;
+        margin: 5px 5px;
     }
     main{
         margin-bottom: 0;
@@ -281,9 +281,9 @@ main{
         display: none;
     }
     #margenNav{
-        margin-left: 45px;
+        margin-left: 40px;
     }
     #margenNav2{
-        margin-left: 90px;
+        margin-left: 85px;
     }
 }
