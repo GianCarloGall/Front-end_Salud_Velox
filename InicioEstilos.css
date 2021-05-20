@@ -364,9 +364,12 @@ main{
         margin-left: 75px;
     }
     .informacion{
-        margin-left: 4%;
+        margin-left: 3%;
     }
     .imagenesF{
         height: 100px;
+    }
+    #textoForm{
+        font-size: 1rem;
     }
 }
