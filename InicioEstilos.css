@@ -78,6 +78,7 @@ header{
         cursor: pointer;
         border-radius: 5px;
         padding: 0.5rem 1rem;
+        margin: auto 30px auto 0px;
         transition: all 0.4s linear;
     }
         .navigation ul li:hover {
@@ -213,12 +214,12 @@ main{
         display: block;
     }
         .navigation ul li {
-            display: block;
+            display: inline-block;
+            text-align: center;
             border-radius: 5px;
-            width: 40%;
-            margin-top: 5px;
+            width: 30%;
+            margin: 5px;
             padding: 0.5rem 0;
-            left: 50%;
             transition: all 0.5s linear;
         }
             .navigation ul li:hover {
@@ -226,6 +227,9 @@ main{
                 color: black;
                 box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
             }
+    #margen{
+        margin: 5px 30px;
+    }
     main{
         margin-bottom: 0;
         margin-top: 0;
