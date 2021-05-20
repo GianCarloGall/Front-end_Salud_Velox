@@ -17,6 +17,11 @@ section{
 p{
     margin-bottom: 1.6em;
 }
+.centro{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
 .espaciado{
     display: none;
 }
@@ -220,12 +225,34 @@ input, textarea{
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    transition: all 0.5s;
+}
+.informacion:hover{
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
 }
 .tituloF{
     width: 50%;
     margin-left: 25%;
     padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
     border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+}
+.tituloT{
+    font-size: 1.3rem;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
 }
 .imagenesF{
     height: 200px;
@@ -371,5 +398,8 @@ main{
     }
     #textoForm{
         font-size: 1rem;
+    }
+    #toc{
+        margin-left: 25%
     }
 }
