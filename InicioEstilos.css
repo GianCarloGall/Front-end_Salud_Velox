@@ -163,6 +163,10 @@ input, textarea{
 .nombres{
     font-size: 0.9em;
 }
+.titulos{
+    margin-bottom: 5px;
+    border-bottom: 1px solid silver;
+}
 footer{
     background: #9f0000;
     color: white;
