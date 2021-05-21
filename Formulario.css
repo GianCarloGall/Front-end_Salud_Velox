@@ -120,8 +120,7 @@ header{
 .formulario{
     width: 500px;
     max-width: 100%;
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
@@ -161,8 +160,8 @@ header{
     cursor: pointer;
     background: #dbd6d6;
     color: black;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    margin: 15px 30%;
     width: 40%;
     text-decoration: none;
     padding: 0.5rem 1rem;

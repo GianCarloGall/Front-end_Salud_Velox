@@ -225,7 +225,7 @@ input, textarea{
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-    transition: all 0.5s;
+    transition: all ease 0.5s;
 }
 .informacion:hover{
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
