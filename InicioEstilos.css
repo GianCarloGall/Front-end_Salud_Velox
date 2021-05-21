@@ -69,8 +69,7 @@ header{
     position: fixed;
     background: #9f0000;
     color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     top: 0;
     left: 0;
     right: 0;
@@ -420,5 +419,8 @@ main{
     }
     #toc{
         margin-left: 25%
+    }
+    header{
+        padding: 1.3rem 0;
     }
 }
