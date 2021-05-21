@@ -266,6 +266,7 @@ input, textarea{
 }
 .boton{
     text-align: center;
+    text-decoration: none;
     cursor: pointer;
     background: #dbd6d6;
     color: black;
@@ -317,7 +318,7 @@ footer ul{
 main{
     padding-top: 11rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .menu-icon{
         display: block;
         cursor: pointer;

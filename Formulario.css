@@ -201,7 +201,7 @@ header{
     margin: 20px auto;
     border-radius: 25px;
     width: 30%;
-    transition: all 0.5s;
+    transition: all 0.5s linear;
 }
 .imagen:hover{
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
@@ -242,7 +242,7 @@ footer ul{
         color: black;
         box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     main{
         margin-bottom: 0;
         padding-bottom: 0;
