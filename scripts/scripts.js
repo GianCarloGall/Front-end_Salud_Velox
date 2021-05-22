@@ -1,3 +1,4 @@
+/*Menu Desplegable*/
 jQuery('document').ready(function($){
     var menuBtn = $('.menu-icon'),
         menu = $('nav ul');
@@ -13,7 +14,6 @@ jQuery('document').ready(function($){
         }
     });
 });
-
 $(document).ready(function () {
     $("#inputXD").on('paste', function (e) {
         e.preventDefault();
@@ -25,7 +25,8 @@ $(document).ready(function () {
         alert('Esta acción está prohibida');
     })
 })
-
+/*------------------------------------------------------------------------*/
+/*Enlaces*/
 function abrir(){
     document.getElementById("vent").style.display="block";
 }
