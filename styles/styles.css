@@ -393,7 +393,8 @@ ol{
         display: block;
         cursor: pointer;
         border-radius: 5px;
-        padding:  0.5rem 1rem;
+        font-size: 0.8em;
+        padding:  0.5rem;
         transition: all 0.5s linear;
     }
     .menu-icon:hover{
