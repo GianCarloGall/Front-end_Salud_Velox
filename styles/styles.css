@@ -260,9 +260,6 @@ textarea{
             background: #9f0000;
             color: white;
         }
-ol{
-    
-}
 /*------------------------------------------------------------------------*/
 /*Info.html*/
 .info_titulo_responsive{
@@ -270,7 +267,7 @@ ol{
 }
 .info_cuadro{
     display: inline-block;
-    width: 40%;
+    width: 25%;
     margin-bottom: 25px;
     margin-left: 5%;
     padding: 20px 10px;
@@ -279,12 +276,12 @@ ol{
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     transition: all 0.7s;
 }
-.info_cuadro:hover{
-    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
-}
+    .info_cuadro:hover{
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+    }
 .info_titulo{
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     padding-bottom: 5px;
     padding-top: 5px;
     text-decoration: none;
@@ -296,14 +293,14 @@ ol{
     border-top: 1px solid silver;
 }
 .info_imagen{
-    height: 200px;
+    height: 150px;
     margin: 5px auto;
     transition: all 0.5s linear;
     border-radius: 10px;
     padding: 5px;
 }
-.info_margen_cuadro{
-    margin-left: 30%;
+.info_margen_cuadro1{
+    margin-left: 20%;
 }
 /*------------------------------------------------------------------------*/
 /*Error404.html*/
@@ -492,12 +489,13 @@ ol{
         display: block;
     }
     .info_cuadro{
+        width: 40%;
         margin-left: 3%;
     }
     .info_imagen{
         height: 100px;
     }
-    .info_margen_cuadro{
+    .info_margen_cuadro2{
         margin-left: 25%
     }
     /*------------------------------------------------------------------------*/
