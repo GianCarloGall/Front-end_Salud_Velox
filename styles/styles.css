@@ -417,10 +417,9 @@ textarea{
         display: block;
     }
         nav ul li{
-            display: inline-block;
+            display: block;
             text-align: center;
             border-radius: 5px;
-            margin: 5px 10px;
             padding: 0.5rem 5px;
             transition: all 0.5s linear;
         }
@@ -480,6 +479,12 @@ textarea{
     }
     .espaciado{
         display: block;
+    }
+    .menosEspacio{
+        padding-top: 5px;
+    }
+    .menosLetter{
+        letter-spacing: 2px;
     }
     /*------------------------------------------------------------------------*/
     /*index.html*/
