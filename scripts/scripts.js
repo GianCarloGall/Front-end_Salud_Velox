@@ -58,7 +58,7 @@ function resultado(){
     location.href = "Resultado.html"
 }
 function chat(){
-    location.href = "Chat.html"
+    location.href = "https://chat-velox.herokuapp.com"
 }
 function info(){
     location.href = "Info.html"
