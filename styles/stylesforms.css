@@ -52,33 +52,33 @@ nav ul{
         }
 footer{
     background: #9f0000;
-    padding: 4rem 0;
+    color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: white;
+    padding: 4rem 0;
 }
-footer ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-
-}
-    footer ul li {
-        display: inline-block;
-        cursor: pointer;
-        padding: 0.5rem 1rem;
-        transition: all 0.5s linear;
-        border-radius: 5px;
-        color: white;
+    footer ul{
+        list-style: none;
         text-decoration: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
-    footer ul li:hover {
-        background: #dbd6d6;
-        color: black;
-        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-    }
+        footer ul li {
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            margin-top: 5px;
+            padding: 0.5rem 1rem;
+            transition: all 0.5s linear;
+        }
+            footer ul li:hover {
+                background: #dbd6d6;
+                color: black;
+                box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+            }
 /*------------------------------------------------------------------------*/
 /*Global*/
 .container{
@@ -104,7 +104,6 @@ p{
     font-size: 1.5em;
     letter-spacing: 10px;
 }
-
 h3{
     letter-spacing: 7px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -261,6 +260,12 @@ h3{
         position: relative;
         font-size: 1.5em;
         letter-spacing: 5px;
+    }
+    h3{
+        letter-spacing: 7px;
+        width: 60%;
+        margin-left: 20%;
+        border-bottom: 1px solid silver;
     }
     /*------------------------------------------------------------------------*/
     /*CrearCuenta.html_ventana*/
