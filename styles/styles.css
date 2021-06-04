@@ -140,8 +140,8 @@ h3{
 /*------------------------------------------------------------------------*/
 /*index.html*/
 video{
-    width: 40%;
-    margin: 30px 30%;
+    width: 50%;
+    margin: 65px 25%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
 }
 .container{
@@ -432,7 +432,7 @@ textarea{
     main{
         margin-bottom: 0;
         margin-top: 0;
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
     .margen_superior{
         padding-top: 4rem;
